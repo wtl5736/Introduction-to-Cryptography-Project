@@ -31,6 +31,6 @@ def setup():
 		system("echo To Run Crypto_Project.py: ")
 		system("echo 		python3 Crypto_Project.py")
 	else:
-		print("SMB_Detector.py can't be ran on", os)
+		print("Crypto_Project.py can't be ran on", os)
 		sys.exit()
 setup()

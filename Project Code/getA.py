@@ -3,7 +3,7 @@
 
 """
 Name: getA.py
-Author: Wesley Lee
+Author: Wesley Lee - wtl5736@rit.edu
 Assignment: Introduction to Cryptography Project
 Date: 04-23-2018
 

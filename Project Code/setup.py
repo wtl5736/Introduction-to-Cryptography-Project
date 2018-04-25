@@ -2,9 +2,12 @@
 
 """
 Name: setup.py
-Author: Wesley Lee
+Author: Wesley Lee - wtl5736@rit.edu
 Assignment: Cryptography Project
 Date: 04-23-2018
+
+Description:
+	Installs all necessary python modules to run the program successfully.
 """
 
 import sys, platform

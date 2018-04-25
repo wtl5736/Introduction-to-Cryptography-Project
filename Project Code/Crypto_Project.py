@@ -33,9 +33,9 @@ class App(QDialog):
         super().__init__()
         self.title = 'Cryptography Project - Encrypt/Decrypt'
         self.left = 10
-        self.top = 10
+        self.top = 20
         self.width = 350
-        self.height = 100
+        self.height = 180
         self.initUI()
 
     # Initializes the GUI

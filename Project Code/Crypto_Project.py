@@ -3,7 +3,7 @@
 
 """
 Name: Crypto_Project.py
-Author: Wesley Lee
+Author: Wesley Lee - wtl5736@rit.edu
 Assignment: Introduction to Cryptography Project
 Date Created: 04-02-2018
 

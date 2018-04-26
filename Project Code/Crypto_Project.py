@@ -35,7 +35,7 @@ class App(QDialog):
         self.left = 10
         self.top = 20
         self.width = 350
-        self.height = 180
+        self.height = 190
         self.initUI()
 
     # Initializes the GUI

@@ -15,7 +15,7 @@ from os import *
 
 def setup():
 	os = platform.system()
-	if os == 'Darwin':
+	if os == 'Darwin' or os == 'Linux':
 		system("clear")
 		system("echo Installing Necessary Dependencies to Run Crypto_Project.py")
 		system("pip3 install PyQt5 numpy")

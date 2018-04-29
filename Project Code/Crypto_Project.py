@@ -10,7 +10,7 @@ Date Created: 04-02-2018
 Description:
     Crypto_Project.py implements a symmetric-key algorithm based on a special class of graphs.
 
-    Encrypts and Decrypts .txt, .py, .java, .c, .asm files
+    Encrypts and Decrypts .txt, .py, .java, .c, .asm, and .log files
 """
 
 import os, sys
@@ -124,8 +124,8 @@ class App(QDialog):
 
     # Opens a file from browser
     def openFileNameDialog(self):
-
         # Open Options
+        self.password_tbox.clear()
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
         fileName, _ = QFileDialog.getOpenFileName(self, "Open Encrypted/Decrypted File", "",
@@ -198,6 +198,7 @@ class App(QDialog):
         # Shows Time Taken to Encrypt
         self.time_label.setText(time + " seconds")
         self.author_label.setText("")
+        self.password_tbox.clear()
 
     # Decrypts a File
     def on_click_decrypt(self):
@@ -225,6 +226,7 @@ class App(QDialog):
         # Shows Time Taken to Decrypt
         self.time_label.setText(time + " seconds")
         self.author_label.setText("")
+        self.password_tbox.clear()
 
 
 # Runs GUI
